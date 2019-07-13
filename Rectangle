@@ -1,0 +1,21 @@
+// Rectangle.js
+class Rectangle {
+  constructor(a, b) {
+    this.a = a;
+    this.b = b;
+  }
+
+  isSquare() { //deux côtés de même longueur
+    return this.a == this.b;
+  }
+
+  getArea() {//renvoie bien la surface du rectangle
+    return this.a * this.b;
+  }
+
+  getPerimeter() { // renvoie bien la superficie du rectangle
+    return 2* (this.a + this.b);
+  }
+}
+// ne pas toucher
+module.exports = Rectangle;
