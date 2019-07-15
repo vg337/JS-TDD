@@ -14,7 +14,7 @@ describe('capitalizeFirstLetter', () => {
       assert.strictEqual(capitalizeFirstLetter('i'), 'I');
   });
   it('works for a 1-character string', () => {
-    assert.strictEqual(capitalizeFirstLetter('i am learning TDD'), 'I am learning TDD');
+    assert.strictEqual(capitalizeFirstLetter('i am learning TDD'), 'I Am Learning TDD');
   });
   it('works for an empty string', () => {
     assert.strictEqual(capitalizeFirstLetter(''), '');
